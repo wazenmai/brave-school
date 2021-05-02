@@ -1,0 +1,54 @@
+/* Body */
+html, body {
+  background-color: #e9ded6;
+}
+
+#section-1 {
+  background-image: url('../assets/main.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
+}
+
+#description {
+  padding-top: 50vh;
+}
+
+#section-2 {
+  background-image: url('../assets/note.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+/* Index */
+#section-3 {
+  background-image: url('../assets/people.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#section-4 {
+  background-image: url('../assets/people-blur.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
+}
+
+#section-5 {
+  background-color: #e9ded6;
+}
+
+#pin {
+  background-image: url('../assets/pin.svg')
+}
+
