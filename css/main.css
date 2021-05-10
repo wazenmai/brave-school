@@ -350,7 +350,7 @@ h1 { font-size: 1.8rem; }
   border-image-source: linear-gradient(90deg, #13849e, #ffbd17);
   border-image-slice: 20;
   background-clip: border-box;
-  -webkit-background-clip: text;
+  -webkit-background-clip: border-box;
   -webkit-text-fill-color: transparent;
 }
 
