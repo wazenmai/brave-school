@@ -26,6 +26,9 @@
 
     <!-- AOS Animation-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- Tab icon -->
+    <link rel="icon" type="image/png" href="./assets/LOGO.png"/>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./main.js"></script>
   </head>
@@ -57,6 +60,9 @@
               <li class="nav-item">
                 <a class="nav-link" id="qa-link" href="#section-13">常見問題</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contact-link" href="#section-end">聯絡我們</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -81,8 +87,7 @@
       <div class="row">
         <!-- <img src="./assets/yellow_sticker.png" class="yellow-sticker"> -->
         <div class="col-7 pt-5 yellow-word">
-          <h2>孩子很有才華，</h2>
-          <h2>但是...</h2>
+          <h2>孩子很有才華，但是...</h2>
           <ul>
             <li>想法很多但太跳動，又很怕失敗，所以一直沒敢跨出第一步</li>
             <li>缺乏實踐經驗，找不到可以一步步教學生學以致用的教練</li>
@@ -100,8 +105,7 @@
           <img src="./assets/blue_murmur.png" class="blue-murmur">
         </div>
         <div class="col-7 pt-5 blue-word">
-          <h2>升學需要課外實踐，</h2>
-          <h2>但是...</h2>
+          <h2>升學需要課外實踐，但是...</h2>
           <ul>
             <li>做來做去就那幾項志工服務，找不到與眾不同的行動方案</li>
             <li>缺會做企劃但邏輯亂七八糟，很難往上提升品質</li>
@@ -162,15 +166,15 @@
       </div>
     </div>
     <div id="section-6">
-      <div class="container-sm pt-3">
+      <div class="container-sm pt-5">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-center title">敢學院：課程介紹</h1>
+            <h1 class="text-center title mt-5 pt-3">敢學院：課程介紹</h1>
             <h2><i class="fas fa-map-pin" style="color: red;"></i>【相信嗎？你有能力實踐，只是缺個機會｜＃營隊三大特色】</h2>
             <h3 class="big-tag">#主題式課程｜從趣味旅行出發</h3>
             <p>第一天，歷經討論、思辨、領導、創造、分析，讓你擁有企劃思維。</p>
             <p>再一天，深層探索高齡在地創生、環保、小農、文化等議題，經歷真實的執行！</p>
-            <p>第三天，</p>
+            <p>第三天，終極成果發表，做一份完整公益企劃反思歷程！</p>
           </div>
         </div>
         <div class="row">
@@ -213,12 +217,17 @@
       </div>
     </div>
     <div id="section-7">
-      <img src="./assets/brain_machine.png" class="brain-machine"></i>
+      <div class="d-lg-none">
+        <img src="./assets/brain_machine.png" class="brain-machine"></i>
+      </div>
+      <div class="d-none d-lg-block">
+        <img src="./assets/brain_machine_mobile.png" class="brain-machine"></i>
+      </div>
     </div>
     <!-- Class Schedule -->
     <div id="section-8" class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-5">
+        <div class="col-5 mt-5">
           <h2 class="text-center mt-5 schedule-title">活動課表</h2>
         </div>
       </div>
@@ -300,7 +309,7 @@
     <section id="section-11" class="mt-5 mb-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-8 mt-5">
             <h2 class="text-center mt-5 mb-5 schedule-title">執行團隊</h2>
           </div>
         </div>
@@ -415,7 +424,7 @@
     <!-- QA -->
     <div id="section-13" class="container mt-5 mb-5">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 mt-5">
           <h3 class="text-center mt-5 mb-5 schedule-title">常見問題</h3>
         </div>
       </div>
@@ -556,17 +565,28 @@
         </div>
       </div>
     </div>
+
+    <div id="section-14" class="container mt-5 mb-5">
+      <div class="row text-center pt-5 pb-5">
+        <div class="col-12">
+          <a class="btn btn-outline-secondary" role="button" href="https://page.cashier.ecpay.com.tw/forms/x4A">點我報名</a>
+        </div>
+      </div>
+    </div>
+
     <img src="./assets/footer.png" class="footer-img">
-    <footer class="foot">
+    <footer id="section-end" class="foot">
       <div class="container">
         <div class="row">
-          <div class="col-4">
-            <!-- <img src="./assets/LOGO.png"> -->
+          <div class="col-3">
+            <img src="./assets/LOGO.png" class="foot-logo img-fluid">
           </div>
-          <div class="col-8">
+          <div class="col-3"></div>
+          <div class="col-6">
             <p>｜聯絡我們｜</p>
             <p>主辦單位：敢學院</p>
-            <p>粉專：<a href="https://reurl.cc/R6Nr1x" style="color: #ffffff;">https://reurl.cc/R6Nr1x</a></p>
+            <p>粉專：<a href="https://reurl.cc/R6Nr1x" style="color: #13849e;">https://reurl.cc/R6Nr1x</a></p>
+            <p>網頁：<a href="#" style="color: #13849e;">https://camp.brave-school.com</a></p>
             <p>電話：0902299118</p>
             <p>協辦單位：新城風糖</p>
           </div>

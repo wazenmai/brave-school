@@ -3,16 +3,16 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #e9ded6;
-  font-size: 12px;
+  /* font-size: 12px; */
   font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
   color: #555555;
 }
 
-p { font-size: 1.5rem; }
-li { font-size: 1.5rem; }
-h3 { font-size: 2rem; }
-h2 { font-size: 3rem; }
-h1 { font-size: 3.5rem; }
+p { font-size: 1.2rem; }
+li { font-size: 1.2rem; }
+h3 { font-size: 1.5rem; }
+h2 { font-size: 2rem; }
+h1 { font-size: 2.5rem; }
 
 /* Index */
 
@@ -59,7 +59,7 @@ h1 { font-size: 3.5rem; }
 
 #section-0 img {
   max-width: 800px;
-
+  max-height: 600px;
 }
 
 #slogan {
@@ -187,7 +187,8 @@ h1 { font-size: 3.5rem; }
 
 .brain-machine {
   width: 100%;
-  margin-top: 0;
+  /* height: 100%; */
+  margin-top: -1px;
   padding-top: 0;
 
   /* height: 100vh; */
@@ -286,6 +287,7 @@ h1 { font-size: 3.5rem; }
 
 #section-13 {
   background-color: #ffffff;
+  color: #555555;
   border-radius: 30px;
 }
 
@@ -311,6 +313,24 @@ h1 { font-size: 3.5rem; }
   padding-top: 0;
 }
 
+#section-14 a {
+  /* background: linear-gradient(90deg, #13849e, #ffbd17);
+  border-image-source: linear-gradient(90deg, #13849e, #ffbd17);
+  border-image-slice: 20;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+#section-14 a:hover {
+  /* background: linear-gradient(90deg, #13849e, #ffbd17);
+  background-clip: padding-box;
+  -webkit-text-fill-color: white; */
+}
+
 .foot {
   /* background-image: url('../assets/footer.png');
   background-position: bottom;
@@ -318,12 +338,18 @@ h1 { font-size: 3.5rem; }
   background-size: 100% auto; */
   /* background: linear-gradient(180deg, #e9ded6 0%, #72747f 25%, #0e1c36 50%); */
   background-color: #ffffff;
-  color: #ffffff;
+  color: #13849e;
 }
 
 .footer-img {
   width: 100%;
   height: 100px;
+}
+
+.foot-logo {
+  width: 100%;
+  padding-bottom: 10%;
+  /* height: 20vh; */
 }
 
 @media screen and (min-width: 900px) {
