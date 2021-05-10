@@ -10,11 +10,19 @@ html, body {
   color: #555555;
 }
 
-p { font-size: 1.2rem; }
-li { font-size: 1.2rem; }
-h3 { font-size: 1.5rem; }
-h2 { font-size: 2rem; }
-h1 { font-size: 2.5rem; }
+p { font-size: 1rem; }
+li { font-size: 1rem; }
+h3 { font-size: 1.2rem; }
+h2 { font-size: 1.4rem; }
+h1 { font-size: 1.8rem; }
+
+@media screen and (min-width: 576px) {
+  p { font-size: 1.2rem; }
+  li { font-size: 1.2rem; }
+  h3 { font-size: 1.5rem; }
+  h2 { font-size: 2rem; }
+  h1 { font-size: 2.2rem; }
+}
 
 /* Index */
 
@@ -123,8 +131,8 @@ h1 { font-size: 2.5rem; }
 .blue-murmur {
   width: 70%;
   height: auto;
-  margin-left: auto;
-  margin-right: 0;
+  /* margin-left: auto;
+  margin-right: 0; */
   display: block;
   margin-bottom: 0;
   margin-top: auto;
@@ -173,7 +181,6 @@ h1 { font-size: 2.5rem; }
 .big-tag {
   color: #ffbd17;
   padding-top: 0.5em;
-  margin-bottom: 0;
 }
 
 .small-tag {
@@ -187,7 +194,6 @@ h1 { font-size: 2.5rem; }
 
 .title {
   color: #13849e;
-  font-size: 4em;
 }
 
 #section-7 {
@@ -212,6 +218,7 @@ h1 { font-size: 2.5rem; }
   background-color: #ffffff;
   border-radius: 30px;
 }
+
 
 .schedule-title {
   color: #ffffff;
@@ -361,7 +368,7 @@ h1 { font-size: 2.5rem; }
   /* height: 20vh; */
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
   .plan {
     padding-top: 20rem;
   }
@@ -371,7 +378,7 @@ h1 { font-size: 2.5rem; }
   } */
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .plan {
     padding-top: 25rem;
   }
