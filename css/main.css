@@ -2,6 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100%;
   background-color: hsl(25, 30%, 88%);
   font-size: 16px;
   font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
