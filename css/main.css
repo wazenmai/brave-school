@@ -219,6 +219,17 @@ h1 { font-size: 1.8rem; }
   border-radius: 30px;
 }
 
+#day1 h3 {
+ color: #13849ed0;
+}
+
+#day2 h3 {
+  color: #FE981Dd0;
+}
+
+#day3 h3 {
+  color: #84B293d0;
+}
 
 .schedule-title {
   color: #ffffff;
@@ -238,27 +249,35 @@ h1 { font-size: 1.8rem; }
 }
 
 #section-9 {
-  background-image: url("../assets/board.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: auto 100%;
-  background-attachment: scroll;
+  background-image: none;
   /* height: 200vh; */
 }
 
-.course-info-div {
-  padding-left: 17%;
-  padding-right: 15%;
-  padding-top: 15rem;
-  padding-bottom: 2rem;
-  /* background-image: url("../assets/board_top.png"), url("../assets/board_bottom.png"), url("../assets/board.png");
-  background-position: top, bottom, top 1000px center;
-  background-repeat: no-repeat, no-repeat, repeat-y;
-  background-size: 100% auto, 100% auto, 100% auto;
-  background-attachment: scroll;  */
+#board-row {
+  padding-top: 0;
 }
 
+#board-row > div > div {
+  border: 5px solid #c7b299;
+}
 
+@media screen and (min-width: 992px) {
+  #section-9 {
+    background-image: url("../assets/board.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+    background-attachment: scroll;
+  }
+
+  #board-row {
+    padding-top: 22%;
+  }
+
+  #board-row > div > div {
+    border: none;
+  }
+}
 
 #section-9 h3 {
   padding-top: 1rem;
