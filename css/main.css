@@ -349,21 +349,17 @@ h1 { font-size: 1.8rem; }
   background: linear-gradient(90deg, #13849e, #ffbd17);
   border-image-source: linear-gradient(90deg, #13849e, #ffbd17);
   border-image-slice: 20;
-  background-clip: border-box;
-  -webkit-background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-#section-14 a {
   font-size: 2rem;
   padding: 1rem 4rem;
-  /* border: 2px solid; */
-  /* border-radius: 50px; */
 }
 
 #section-14 a:hover {
   background: linear-gradient(90deg, #13849e, #ffbd17);
   background-clip: padding-box;
+  -webkit-background-clip: padding-box;
   -webkit-text-fill-color: white;
 }
 
