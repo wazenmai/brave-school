@@ -6,16 +6,19 @@ $(window).scroll(function () {
     $(".bg-light").addClass("transparent");
   }
 
-  if (height + 100 > $("#section-13").offset().top){
+  if (height + 200 > $('#section-14').offset().top) {
+    $("header .nav-link").removeClass("active");
+    $("#contact-link").addClass("active");
+  } else if (height + 100 > $("#section-13").offset().top){
     $("header .nav-link").removeClass("active");
     $("#qa-link").addClass("active");
   } else if (height + 100 > $("#section-11").offset().top){
     $("header .nav-link").removeClass("active");
     $("#members-link").addClass("active");
-  } else if (height+100 > $("#section-8").offset().top){
+  } else if (height + 100 > $("#section-8").offset().top){
     $("header .nav-link").removeClass("active");
     $("#schedule-link").addClass("active");
-  } else if (height+100 > $("#section-6").offset().top){
+  } else if (height + 100 > $("#section-6").offset().top){
     $("header .nav-link").removeClass("active");
     $("#intro-link").addClass("active");
   } else {
