@@ -319,6 +319,40 @@ h1 { font-size: 1.8rem; }
   border-radius: 30px;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1rem;
+  width: 33%;
+  height: 3em;
+}
+
+.online-course {
+  color: #13849e;
+}
+
+.gather-town {
+  font-size: 1.2rem;
+}
+
+.discount {
+  background-color: #e06666;
+  color: white;
+  padding: 1rem 0.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  font-weight:bold;
+  -webkit-transform: rotate(-10deg);
+}
+
+@media screen and (min-width: 576px) {
+  .gather-town { font-size: 1.4rem; }
+}
+
 #section-13 {
   background-color: #ffffff;
   color: #555555;
